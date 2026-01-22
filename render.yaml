@@ -51,6 +51,10 @@ services:
         fromDatabase:
           name: n8n-db
           property: user
+      - key: N8N_PROTOCOL
+        value: https
+      - key: WEBHOOK_URL
+        value: 'Web Service URL'
 
 databases:
   - name: n8n-db
