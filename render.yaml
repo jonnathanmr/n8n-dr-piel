@@ -54,7 +54,7 @@ services:
       - key: N8N_PROTOCOL
         value: https
       - key: WEBHOOK_URL
-        value: 'Web Service URL'
+        value: https://n8n-service-podw.onrender.com
 
 databases:
   - name: n8n-db
